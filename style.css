@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+    background: linear-gradient(to right, #9a1d86, #1595be);
+    font-weight: bold;
+}
+
+.container {
+    width: 25%;
+    min-height: 80vh;
+    background-color: orchid;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 2px;
+    color: wheat;
+}
+
+h4:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+img {
+    width: 80%;
+    min-height:40vh;
+    margin: 10% 10% 5% 10%;
+    border-radius:15px;
+    box-shadow: 10px 15px 25px rgba(182, 48, 48, 0.5);
+}
+
+img:hover {
+    box-shadow: 10px 20px 30px;
+}
+
+p {
+    margin: 3%;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+input {
+    width: 80%;
+    margin: 2% 10%;
+    margin-top: 10px;
+    margin: 10%;
+}
+
+button {
+    text-align: center;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 4%;
+    border-radius: 25px;
+    background: transparent;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(182, 48, 48, 0.5),
+                -1px -1px 1px white;
+}
+
+button:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5), 1px 1px 1px white;
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 40%;
+    }
+    .click-btn{
+        padding: 12px;
+    }
+}
+@media screen and (max-width:450px) {
+    .container {
+        width: 75%;
+    }
+    .click-btn{
+        padding: 15px;
+        margin-left: 13%;
+
+    }
+}
